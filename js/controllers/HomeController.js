@@ -98,7 +98,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 	
 	/* ADD VARIABLES FOR STEP 3 HERE */
 	
-	$scope.app_title = "IMDB + Shruti's Top 8 Movies"; 
+	$scope.title = "IMDB + Shruti's Top 8 Movies"; 
 	$scope.owner  = "Shruti";
 	$scope.github = "https://github.com/swarrier16/is219s18Warrier-P3";
 	
