@@ -88,7 +88,49 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
-	}
+	},
+      { 
+      title:      'Murder on the Orient Express', 
+      iscore:     6.6,
+      rating:     'PG-13',
+      runtime:    112,
+      released:   new Date('2017', '11', '10'),
+      country:    'USA',
+      posters:    ['img/orient1.jpg', 'img/orient2.jpg'],
+      imdb:       'https://www.imdb.com/title/tt3402236/',
+      website:    'https://www.foxmovies.com/movies/murder-on-the-orient-express',
+      likes:      710,
+      dislikes:   100,
+      posterindex: 0
+      },
+      { 
+      title:      'Train to Busan', 
+      iscore:     7.5,
+      rating:     'TV-MA',
+      runtime:    118,
+      released:   new Date('2016', '7', '20'),
+      country:    'South Korea',
+      posters:    ['img/busan.jpg', 'img/busan2.jpg'],
+      imdb:       'https://www.imdb.com/title/tt5700672/',
+      website:    'http://wellgousa.com/theatrical/train-to-busan',
+      likes:      900,
+      dislikes:   80,
+      posterindex: 0
+      },
+      { 
+      title:      'Mulan', 
+      iscore:     7.6,
+      rating:     'G',
+      runtime:    88,
+      released:   new Date('1998', '6', '19'),
+      country:    'USA',
+      posters:    ['img/mulan.jpg', 'img/mulan2.jpg'],
+      imdb:       'https://www.imdb.com/title/tt0120762/',
+      website:    'http://movies.disney.com/mulan',
+      likes:      1020,
+      dislikes:   200,
+      posterindex: 0
+      }
 	
 	
   ];
